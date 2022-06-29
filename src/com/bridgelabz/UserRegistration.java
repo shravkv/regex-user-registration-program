@@ -6,7 +6,7 @@ public class UserRegistration {
 
     public static void main(String[] args) {
         System.out.println("Welcome to UserRegistration program using Regex ");
-        boolean firstName = Pattern.matches("[A-Z][a-z]{3,}", "Vodnala");
-        System.out.println("FirstName : "+firstName);
+        boolean lastName = Pattern.matches("[A-Z][a-z]{3,}", "Sravan");
+        System.out.println("LastName : "+lastName);
     }
 }
