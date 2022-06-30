@@ -16,6 +16,8 @@ public class UserRegistration {
         System.out.println("PhoneNumber :"+phoneNumber);
         boolean passWord = Pattern.matches("[a-z]{8,}", "sravankum");
         System.out.println("PassWord :"+passWord);
+        boolean passWord1 = Pattern.matches("(?=.*?[A-Z])[A-Za-z]{8,}", "SravanKum");
+        System.out.println("PassWord1 :"+passWord1);
 
     }
 
